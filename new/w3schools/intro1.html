@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript date and tie</title>
+</head>
+<body>
+    
+    <h2>Javascript date</h2>
+
+
+    <button type="button" onclick="document.getElementById('btn').innerHTML = Date()">Click to display date</button>
+    <p id="btn"></p>
+
+    <p id="change">hello world this is Javascript</p>
+    <button onclick="document.getElementById('change').innerHTML = 'hello Javascript'">change text</button>
+
+    <p id="style">Change the font-size, color</p>
+    <button onclick="document.getElementById('style').style.fontSize = '122px'">change</button>
+
+    <p id="hide">Hide text</p>
+    <button onclick="document.getElementById('hide').style.display = 'none'">hide</button>
+
+    <p id="show" style="display: none;">Shoe the text</p>
+    <button onclick="document.getElementById('show').style.display = 'block'">show</button>
+
+    <img src="" alt="">
+    <button onclick="on()">Turn on the light</button>
+    <img src="/w3schools/bulb1.jfif" alt="bilb off" id="img">
+    <button onclick="off()">Turn off the light</button>
+
+    <img src="" alt="">
+    <script>
+        function on() {
+            document.getElementById("img").src = "/w3schools/bulb1.jfif";
+        }
+        function off() {
+            document.getElementById("img").src = "/w3schools/bulboff.jfif"
+        }
+    </script>
+</body>
+</html>

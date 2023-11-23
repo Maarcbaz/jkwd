@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codeliber Javascript</title>
+    <style>
+        body {
+            margin: 40px;
+        }
+        button {
+            color: #fff;
+            background-color: #1c52a1;
+            border: none;
+            padding: 10px 20px;
+        }
+        img {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <button id="btn">I am a Dialogue Button</button>
+    <p id="demo">Hello World</p>
+    <button onclick="func()">change</button>
+    <button onclick="myPic()">Image</button>
+    <img src="../IMAGES/tyler perry.jpeg" id="image" alt="this is tyler perry">
+
+    <p id="style">Change style</p>
+    <button onclick="myFunc()">Change text style</button>
+    <script>
+        document.getElementById("btn").onclick = function () {
+            alert("I'm a dialogue box")
+        }
+        function func() {
+            document.getElementById("demo").innerHTML = "hello everyone!";
+        }
+        function myPic() {
+            document.getElementById("image").src = "/CODELIBER/1 - Copy.jpg"
+        }
+        function myFunc() {
+            document.getElementById("style").style.fontWeight = "1000"
+            document.getElementById("style").style.color = "red";
+            document.getElementById("style").style.fontSize = "3rem"
+        }
+    </script>
+</body>
+</html>

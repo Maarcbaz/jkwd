@@ -1,0 +1,39 @@
+// FUNCTION
+
+function myFunction() {
+    console.log("hello world")
+}
+// CALLING A FUNCTIO : WHEN CALLING A FUNCTION WE USE
+myFunction()
+
+// PASSING AN ARGUEMENT TO A FUNCTION
+
+function myFunct(a,b) {
+    console.log(a-b);
+    console.log(a+b);
+}
+// CALLING A FUNCTION
+myFunct(1,2);
+myFunct(10,10)
+myFunct(10,30)
+
+// THIS RESULT INTO A  6 ANSWERRS EACH BEEN EXCUTED BEFORE ANOTHER
+
+function ret(mul) {
+    return mul * 3
+}
+
+let result = ret(9)
+ret()
+
+// SCOPE REFERS TO THE VISIBILITY OF VARIABLE
+// GLOBAL SCOPE THIS MEANS THAT THEY ARE OUTSIDE OF THE FUNCTION AND CAN BE SEEN EVERYWHERE IN JAVASCRIPT
+// USING LET OR CONST Using let or const, declare a global variable named myGlobal outside of any function.
+
+
+// READ ABOUT THE GLOBAL SCOPE FUNCTION
+
+// VARIABLE DECLARED OUTSIDE A FUNCTION ARE CALLED GLOABSCOPE VARIABLE
+// VARIABLE DECLARED INSIDE THE VARIABLE ARE CALLED LOCAL SCOPE VARIABLE
+// YOU CAN CONSOLE A VARIABLE IN A FUNCTION
+// READ MORE
